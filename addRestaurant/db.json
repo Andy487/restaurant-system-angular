@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "name": "Nakoda Restaurant",
+      "email": "nokdarestaurant23@gmail.com",
+      "mobile": "987654321",
+      "address": "Jaipur",
+      "service": "Breakfast,lunch,dinner"
+    },
+    {
+      "id": 3,
+      "name": "Lake City Restaurant",
+      "email": "lakeCity24@gmail.com",
+      "mobile": "987745665",
+      "address": "udaipur",
+      "service": "breakfast , fast food"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Anand",
+      "email": "anandnayaak95@gmail.com",
+      "mobile": "9269255522",
+      "password": "1234568",
+      "id": 1
+    },
+    {
+      "name": "rajesh",
+      "email": "rjnayak95@gmail.com",
+      "mobile": "8003050064",
+      "password": "8003050064",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
