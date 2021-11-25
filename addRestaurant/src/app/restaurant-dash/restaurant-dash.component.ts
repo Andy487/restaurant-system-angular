@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
+import { RestroService } from 'src/services/restro.service';
 import { RestaurantData } from '../restaurent.model';
-import { RestroService } from '../restro.service';
 
 @Component({
   selector: 'app-restaurant-dash',
