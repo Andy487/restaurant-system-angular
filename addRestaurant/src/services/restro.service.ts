@@ -8,21 +8,22 @@ import { map, Observable } from 'rxjs';
 })
 export class RestroService {
 
+
   constructor(private http:HttpClient) { }
 
   //create reataurarnt
 
  public postRestaurant(data:any){
-    
-    
     return this.http.post<any>("http://localhost:3000/posts",data)
     .pipe(map((res:any)=>{
       console.log("inside service");
     return res;
 
-    // public requestRoster(rosterModel : any): Observable<any>{
-    //   return this.http.post(this.url ,rosterModel)
   }))
+  }
+  
+  public postRestaurants(rosterModel : any): Observable<any>{
+    return this.http.post("http://localhost:3000/posts" ,rosterModel)
   }
 
   getReaturnt(){
